@@ -1,0 +1,19 @@
+.uptop{
+    /* 位置固定 */
+    position:fixed;
+    bottom:-50px;
+    right:30px;
+    width:50px;
+    /* 层级设置为最大，避免被覆盖 */
+    z-index:9999;
+    /* 动画效果 */
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -ms-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s;
+}
+.uptop img{
+    width:80%;
+    cursor:pointer;
+}
